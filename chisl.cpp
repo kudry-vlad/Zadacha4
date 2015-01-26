@@ -1,5 +1,4 @@
 #include "stdafx.h"
-
 using namespace std;
 
 void delim_date(const string s, int &day, int &mon, int &year)
