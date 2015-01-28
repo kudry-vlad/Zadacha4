@@ -7,7 +7,7 @@ void delim_date(const string s, int &day, int &mon, int &year)
 	int index = 0, step = 0;
 	for (int i = 0; i < s.length(); i++)
 	{
-		if (s[i] == '.')
+         	if (s[i] == '.' || s[i] == '/'
 		{
 			if (step == 0)		day = atoi(result);
 			else if (step == 1)	mon = atoi(result);
